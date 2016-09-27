@@ -1,1 +1,0 @@
-var rickroll = '<video` id="imagedog" src="https://youtu.be/oHg5SJYRHA0"/>'
