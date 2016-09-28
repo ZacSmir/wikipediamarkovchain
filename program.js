@@ -1,13 +1,13 @@
-gameInput.keydown(function(keydownEvent) {
+gameinput.keydown(function(keydownEvent) {
   // the key code for enter is 13
 
   if (keydownEvent.keyCode == 13) {      
-    parseText(gameInput.val()); 
-    gameInput.val("");
+    parseText(gameinput.val()); 
+    gameinput.val("");
   }  
 })
 
-var title = $("#game-input").val()
+var title = $("#gameinput").val()
 console.log(title)
 getWikiIntro(title, function(text) {
   console.log(text)
