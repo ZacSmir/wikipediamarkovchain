@@ -10,13 +10,15 @@ gameInput.keydown(function(keydownEvent) {
     console.log(title)
     gameInput.val("");
     
+    getWikiIntro(title, function(text) {
+
+      console.log(text);
+      return text
+    })
+
+    
   }  
 })
 
-getWikiIntro(title, function(text) {
-
-  console.log("moo");
-
-})
 
 
