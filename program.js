@@ -6,6 +6,7 @@ gameInput.keydown(function(keydownEvent) {
   if (keydownEvent.keyCode == 13) {      
     parseText(gameInput.val()); 
     gameInput.val("");
+    console.log(gameInput);
   }  
 })
 
