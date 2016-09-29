@@ -4,6 +4,7 @@ gameinput.keydown(function(keydownEvent) {
   if (keydownEvent.keyCode == 13) {      
     parseText(gameinput.val()); 
     gameinput.val("");
+    $("#gameinput").val
   }  
 })
 
