@@ -4,7 +4,9 @@ gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
 
   if (keydownEvent.keyCode == 13) {      
+    console.log("hello world")
     parseText(gameInput.val()); 
+    gameInput.val()
     console.log(gameInput);
     gameInput.val("");
   }  
