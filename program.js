@@ -1,4 +1,4 @@
-var title = "null"
+var title = "nothing"
 var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
 gameInput.keydown(function(keydownEvent) {
@@ -13,9 +13,10 @@ gameInput.keydown(function(keydownEvent) {
   }  
 })
 
-//getWikiIntro(title, function(text) {
-//
-//  console.log(text);
-//
-//})
+getWikiIntro(title, function(text) {
+
+  console.log("moo");
+
+})
+
 
