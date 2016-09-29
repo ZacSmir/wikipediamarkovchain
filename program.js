@@ -4,19 +4,16 @@ gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
 
   if (keydownEvent.keyCode == 13) {      
-    console.log("hello world")
-//    parseText(gameInput.val()); 
-    gameInput.val()
-    console.log(gameInput);
+    parseText(gameInput.val()); 
     gameInput.val("");
   }  
 })
 
 
 
-//var title = $("#gameinput").val()
-//console.log(title)
-//getWikiIntro(title, function(text) {
-//  console.log(text)
-//  return text
-//})
+var title = gameInput.val()
+console.log(title)
+getWikiIntro(title, function(text) {
+  console.log(text)
+  return text
+})
