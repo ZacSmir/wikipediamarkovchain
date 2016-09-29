@@ -13,8 +13,9 @@ gameInput.keydown(function(keydownEvent) {
   }  
 })
 
-getWikiIntro(title, function(text) {
+//getWikiIntro(title, function(text) {
+//
+//  console.log(text);
+//
+//})
 
-  console.log(text);
-
-})
