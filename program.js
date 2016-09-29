@@ -12,7 +12,11 @@ gameInput.keydown(function(keydownEvent) {
   }  
 })
 
+getWikiIntro(title, function(text) {
 
+  return text
+
+})
 
 
 //var title = gameInput.val()
