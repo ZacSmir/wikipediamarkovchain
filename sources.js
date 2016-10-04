@@ -1,7 +1,7 @@
 function getWikiIntro(title, processor) {
   $.ajax({
     method: "GET",
-    url: "https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exlimit=max&explaintext&exintro&titles=" + title,    
+    url: "https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exlimit=max&explaintext&exintro&page&titles=" + title,    
     dataType: "jsonp",
     jsonp: "callback",
     success: function(res) {
