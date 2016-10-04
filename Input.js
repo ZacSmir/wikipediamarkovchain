@@ -4,7 +4,7 @@ var fs = require('fs');
 var markov = require('markov');
 var m = markov(1);
 
-var s = fs.createReadStream(__dirname + '/qwantz.txt');
+var s = fs.createReadStream(__dirname + text);
 m.seed(s, function () {
   var stdin = process.openStdin();
   util.print('> ');
