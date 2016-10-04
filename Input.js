@@ -5,6 +5,7 @@ var markov = require('markov');
 var m = markov(1);
 
 var s = fs.createReadStream(__dirname + text);
+console.log()
 m.seed(s, function () {
   var stdin = process.openStdin();
   util.print('> ');

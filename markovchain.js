@@ -185,7 +185,7 @@ module.exports = function (order) {
   self.word = function (cur) {
     return db[cur] && deck.pick(db[cur].words);
   };
-
+  console.log(self)
   return self;
 };
 
