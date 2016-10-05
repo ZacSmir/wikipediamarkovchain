@@ -16,6 +16,13 @@ gameInput.keydown(function(keydownEvent) {
     
     })
     
+    function get() { return document.(text).value; }
+
+    // Clears the source textbox
+    function clear() { document.getElementById('in').value = ''; }
+
+    // Writes to the output textbox
+    function set(v) { document.getElementById('out').value = v; }
 
     
   }  
