@@ -1,5 +1,5 @@
 // Returns the source text
-function get() { return $("#output").value; }
+function get() { return $("#output").html(); }
 
 // Clears the source textbox
 function clear() { $("#output").html(""); }

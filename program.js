@@ -13,6 +13,7 @@ gameInput.keydown(function(keydownEvent) {
     getWikiIntro(title, function(text) {
   
       $("#output").html(text)
+      _generate()
       generate()
     
     })
