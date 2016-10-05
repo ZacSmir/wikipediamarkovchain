@@ -11,7 +11,7 @@ gameInput.keydown(function(keydownEvent) {
     gameInput.val("");
     
     getWikiIntro(title, function(text) {
-   `
+  
       $("#output").html(text)
     
     })
