@@ -1,11 +1,11 @@
 // Returns the source text
-function get() { return document.getElementById('in').value; }
+function get() { return $("#output").value; }
 
 // Clears the source textbox
-function clear() { document.getElementById('in').value = ''; }
+function clear() { $("#output").html(""); }
 
 // Writes to the output textbox
-function set(v) { document.getElementById('out').value = v; }
+function set(v) { $("#output").html(v) }
 
 // Holds the state information
 var cache = {
