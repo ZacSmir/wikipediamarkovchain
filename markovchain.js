@@ -12,7 +12,7 @@ var cache = {
   '_START': []
 };
 
-document.getElementById('add').onclick = function () {
+function generate() {
   // Get the source text and split it into words
   var text = get().split(/\s+/g);
 
