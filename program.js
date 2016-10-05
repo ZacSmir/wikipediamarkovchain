@@ -18,7 +18,7 @@ gameInput.keydown(function(keydownEvent) {
     
     function get() { return $("#output").value; }
     
-    get()
+    get(Text)
     // Clears the source textbox
     function clear() { document.getElementById('in').value = ''; }
 
