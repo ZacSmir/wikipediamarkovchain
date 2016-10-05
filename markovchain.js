@@ -13,6 +13,7 @@ var cache = {
 };
 
 function generate() {
+  console.log("Asdf")
   // Get the source text and split it into words
   var text = get().split(/\s+/g);
 
