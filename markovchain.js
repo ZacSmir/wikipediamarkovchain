@@ -12,15 +12,13 @@ var cache = {
   '_START': []
 };
 
-function generate() {
+function _generate() {
   console.log("Asdf")
   // Get the source text and split it into words
   var text = get().split(/\s+/g);
 
   if (!text.length)
     return;
-
-  document.getElementById('generate').disabled = false;
 
   // Add it to the start node's list of possibility
   cache['_START'].push(text[0]);
