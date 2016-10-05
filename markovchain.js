@@ -38,7 +38,7 @@ function generate() {
   clear();
 };
 
-document.getElementById('generate').onclick = function () {
+function generate() {
   // Start with the root node
   var currentWord = '_START';
   var str = '';
