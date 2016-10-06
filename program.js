@@ -30,6 +30,13 @@ gameInput.keydown(function(keydownEvent) {
     // Writes to the output textbox
     function set(v) { document.getElementById('out').value = v; }
 
+    gameInput.click(function(clickevent) {
+
+      if (clickevent) {
+        window.location.reload();
+      }
+
+    })
     
   }  
 })
