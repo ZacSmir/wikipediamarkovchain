@@ -1,6 +1,8 @@
 var title = "nothing"
 var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
+gameInput.click(fucntion(cl))
+
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
 
