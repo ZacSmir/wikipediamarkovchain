@@ -1,7 +1,15 @@
 var title = "nothing"
 var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
-gameInput.click(fucntion(cl))
+
+
+gameInput.click(function(clickevent)) {
+
+            if (clickevent) {
+  window.location.reload();
+}    
+                
+}
 
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
@@ -18,7 +26,7 @@ gameInput.keydown(function(keydownEvent) {
       _generate()
       generate()
       
-      window.location.reload();
+      
     })
     
   
