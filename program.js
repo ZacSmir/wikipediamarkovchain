@@ -3,13 +3,13 @@ var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
 
 
-gameInput.click(function(clickevent)) {
+gameInput.click(function(clickevent) {
 
             if (clickevent) {
   window.location.reload();
-}    
-                
 }
+                
+})
 
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
