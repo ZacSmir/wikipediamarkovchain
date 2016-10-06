@@ -15,6 +15,7 @@ gameInput.keydown(function(keydownEvent) {
       $("#output").html(text)
       _generate()
       generate()
+      
       window.location.reload();
     })
     
